@@ -10,16 +10,9 @@ int main()
 	scanf("%d",&a);
 	printf("Nhap vao so nguyen b:");
 	scanf("%d",&b);
+	/* thieu xuat so nguyen ne*/
+	printf("xuat so nguyen a= %d",a);
 	
-	
-	tong=a+b;
-	hieu=a-b;
-	tich=a*b;
-	thuong=a/b;
-	printf ("\nTong hai so nguyen la:%d",tong);
-	printf ("\nHieu hai so nguyen la:%d",hieu);
-	printf ("\nTich hai so nguyen la:%d",tich);
-	printf ("\nThuong hai so nguyen la:%.2f",thuong);
-
+	printf("xuat so nguyen b = %d",b);
 	return 0 ;
 }

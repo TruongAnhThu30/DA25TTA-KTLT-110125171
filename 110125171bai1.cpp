@@ -10,7 +10,7 @@ int main()
 	printf("Nhap vao so nguyen b:");
 	scanf("%d",&b);
 	
-	
+/* printf ("tinh tong hieu tich thuong");*/
 	tong=a+b;
 	hieu=a-b;
 	tich=a*b;
@@ -19,6 +19,7 @@ int main()
 	printf ("\nHieu hai so nguyen la:%d",hieu);
 	printf ("\nTich hai so nguyen la:%d",tich);
 	printf ("\nThuong hai so nguyen la:%.2f",thuong);
-
+/* printf("cong tac vien so 11 da o day");*/
 	return 0 ;
 }
+
